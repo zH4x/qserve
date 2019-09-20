@@ -54,3 +54,6 @@ QServe is meant for _quickly_ setting up a server.  For a more permanant solutio
 
 _sample usage with PM2 hosting multiple servers at once_
 ![](https://i.imgur.com/fELCgDi.png)
+
+_pretty colors_
+![](https://i.imgur.com/VRX4yaI.png)
