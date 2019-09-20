@@ -51,3 +51,6 @@ Add one or more of these to enable a certain setting
 ## Usage
 
 QServe is meant for _quickly_ setting up a server.  For a more permanant solution, look elsewhere.  Benefits of qserve is how lightweight and small the binary is (290kb), while being a single file.  This is most useful for quickly sharing files, setting up a test server, and a multitude of lightweight webhosting activities.  [This](https://mehsecurity.org/phish) sample uses it for quickly setting up a phishing page, you can use it however you wish.
+
+_sample usage with PM2 hosting multiple servers at once_
+![](https://i.imgur.com/fELCgDi.png)
