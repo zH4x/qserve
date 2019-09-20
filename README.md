@@ -24,6 +24,8 @@ cd qserve
 ```
 _For other Visual Studio versions/instalations, open the .sln and compile in the IDE_
 
+If you don't feel like compiling, check out the [releases](https://github.com/coltonon/qserve/releases).
+
 ## Arguments
 
 ### Options
@@ -44,3 +46,8 @@ Add one or more of these to enable a certain setting
 `-w` `--webroot`: Sets the webroot for the server.  Files in this directory will be accessable.  Default is your current directory.
 
 `-d` `--domain-name`: Only listens when requests are for a specific domain name.  Default is `0.0.0.0`, which allows all.
+
+
+## Usage
+
+QServe is meant for _quickly_ setting up a server.  For a more permanant solution, look elsewhere.  Benefits of qserve is how lightweight and small the binary is (290kb), while being a single file.  This is most useful for quickly sharing files, setting up a test server, and a multitude of lightweight webhosting activities.  [This](https://mehsecurity.org/phish) sample uses it for quickly setting up a phishing page, you can use it however you wish.
